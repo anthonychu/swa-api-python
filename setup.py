@@ -7,5 +7,6 @@ setup(name='swa_api',
       author='Anthony',
       author_email='antchu@microsoft.com',
       license='MIT',
+      install_requires='azure-cosmos',
       packages=['swa_api'],
       zip_safe=False)
